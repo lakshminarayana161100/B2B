@@ -1,3 +1,5 @@
+
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,6 +14,7 @@ import { WishlistComponent } from './component/wishlist/wishlist.component';
 import { SavedcardsComponent } from './component/savedcards/savedcards.component';
 import { MyReviewsComponent } from './component/my-reviews/my-reviews.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { MyordersComponent } from './component/myorders/myorders.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     WishlistComponent,
     SavedcardsComponent,
     MyReviewsComponent,
-    DashboardComponent
+    DashboardComponent,
+    MyordersComponent
   ],
   imports: [
     BrowserModule,

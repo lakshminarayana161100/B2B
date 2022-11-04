@@ -49,8 +49,11 @@ const routes: Routes = [
   {
     path: 'wishlist',
     component: WishlistComponent
+  },
+  {
+  path: 'myorders',
+  component:MyReviewsComponent
   }
-
 ];
 
 
