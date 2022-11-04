@@ -1,0 +1,183 @@
+/* .boby {
+  background-color: #3f9ce2;
+  height: 746px;
+} */
+
+.header {
+  overflow: hidden;
+  background-color: #3f9ce2;
+  width: 100%;
+  height: 100px;
+  padding-top: 13px;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f9ce2;
+}
+a:active {
+  color: red;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px 70px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* .header a:hover {
+    background-color: rgb(18, 96, 159);
+    color: black; 
+  } */
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: 40px;
+}
+
+.whitebox {
+  background-color: white;
+  width: 1535px;
+  height: 659px;
+  margin: 0;
+  margin-top: -32px;
+  border-radius: 9px;
+}
+
+.data {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+
+    float: none;
+  }
+}
+
+.box {
+  background-color: white;
+  width: 432px;
+  height: 110px;
+  margin: 20px;
+  border: 1px solid gainsboro;
+  padding: 5px;
+  border-radius: 5px;
+
+
+}
+
+
+.box1 {
+  background-color: white;
+  width: 432px;
+  height: 478px;
+  margin: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+
+
+}
+
+.avatar {
+  height: 99px;
+  border-radius: 50%;
+}
+
+.title {
+  margin: 140px;
+  margin-top: -100px;
+}
+
+.dropdown {
+  margin-top: 4px;
+}
+
+.account {
+  border-radius: 50%;
+  width: 38px;
+  height: 31px;
+}
+
+.order {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  margin: 15px;
+}
+
+.my {
+  margin: 41px;
+  margin-top: -36px;
+}
+
+.setting {
+  width: 27px;
+  height: 27px;
+  margin: 13px;
+  margin-top: -19px;
+}
+
+.acc {
+  margin: 46px;
+  margin-top: -39px;
+
+}
+
+.headings {
+  margin: 46px;
+  margin-top: -38px;
+  min-height: 2px;
+  line-height: 1.2;
+}
+
+.box2 {
+  background-color: white;
+  width: 920px;
+  height: 608px;
+  float: right;
+  border: 1px solid gainsboro;
+  margin-top: -628px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.dropdown {
+  border: none;
+  outline: none;
+  background-color:inherit;
+  
+  font-size: 18px;
+}
+
+option { 
+  /* Whatever color  you want */
+  background-color: white;
+  color: black;
+}

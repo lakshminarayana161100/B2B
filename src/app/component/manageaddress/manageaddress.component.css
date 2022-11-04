@@ -1,0 +1,56 @@
+h1{
+    margin-top: 5px;
+}
+.box{
+    height: 81px;
+    width: 557px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 22px;
+}
+.h3{
+    margin: 5px;
+    margin-top: 20px;
+}
+.box1{
+    height: 175px;
+    width: 557px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 22px;
+    padding-top: 20px;
+    
+}
+.detail{
+    margin: 10px;
+    margin-top: -16px;
+}
+.box2{
+    height: 150px;
+    width: 557px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 22px;
+    padding-top: 20px;
+}
+button{
+    width: 15%;
+    margin-left: 250px;
+}
+.cen{
+    margin: 30px;
+    margin-left: 50px;
+}
+.primary{
+    color:white ;
+    background-color: #3f9ce2;
+    border: 2px solid #3f9ce2;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    margin-left: 250px;
+  
+   }

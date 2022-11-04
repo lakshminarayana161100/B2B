@@ -1,0 +1,64 @@
+<div class="boby">
+  <div class="header">
+    <a class="logo" style="color:white ;">B2B</a>
+
+    <div class="header-right">
+      <a  href="#home" style="color:white ; font-weight:500">Home</a>
+      <a href="#" style="color:white ; font-weight:500">Products</a>
+      <a href="#" style="color:white ; font-weight:500"> Wishlist</a>
+      <a href="#" style="color:white ; font-weight:500">About Us</a>
+      <a href="#" style="color:white ; font-weight:500"> Contact Us</a>
+      <img src="assets/account.png" class="account">
+      <select class="dropdown" style="background-color: #3f9ce2; color: white;">
+        <option value="one" ><a href="#" style=" font-weight:500">Account</a></option>
+        <option value="abcd"><a href="#" style=" font-weight:500">Dashboard</a></option>
+        <option value="efgh"><a href="#" style=" font-weight:500">Profile</a></option>
+      </select>
+    </div>
+
+  </div>
+  <div class="whitebox">
+    <div class="data">
+    <div class="box">
+      <img src="assets/avatar.png" class="avatar">
+      <div class="title">
+        <h1>Hi,</h1>
+        <h6>lakshmi narayana</h6>
+      </div>
+    </div>
+    <div class="box1">
+      <div>
+        <img src="assets/myorder.png" class="order">
+        <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left:332px ;"></i>
+        <h6 class="my">MY ORDERS</h6>
+        
+        <hr>
+        <div>
+          <img src="assets/setting.png" class="setting">
+          <h4 class="acc">ACCOUNT SETTINGS</h4>
+          <div class="headings">
+            <h6><a [routerLink]="['profile']" class='hoverfor'>Profile Information</a></h6>
+            <h6><a routerLink="manage">Manage Address</a></h6>
+            <h6><a routerLink="pancard" routerLinkActive="active">PanCard Information</a></h6>
+            <hr>
+            <h4>PAYMENTS</h4>
+            <h6><a routerLink="savedupi" routerLinkActive="active">Saved UPI</a></h6>
+            <h6><a routerLink="savedcard" routerLinkActive="active">Saved Cards</a></h6>
+            <hr>
+            <h4>MY STUFF</h4>
+            <h6><a routerLink="/MyReviews" routerLinkActive="active" >My Reviews and Rating</a></h6>
+            <h6>
+              <a routerLink="/wishlist" routerLinkActive="active" >My Wishlist</a></h6>
+            <hr>
+            <h5 style="margin: -6px; ">LOG OUT</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box2">
+
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  </div>
+</div>

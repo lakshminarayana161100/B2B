@@ -1,0 +1,19 @@
+
+ .editbtn{
+   float: right;
+   margin-right: 50px;
+   margin-top: -40px;
+ }
+ .pad{
+    padding-top: 25px;
+ }
+ .primary{
+  color:white ;
+  background-color: #3f9ce2;
+  border: 2px solid #3f9ce2;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+  margin-left: 50px;
+
+ }
