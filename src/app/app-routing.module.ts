@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddaddressComponent } from './component/addaddress/addaddress.component';
 import { HeaderComponent } from './component/header/header.component';
 import { ManageaddressComponent } from './component/manageaddress/manageaddress.component';
 import { MyReviewsComponent } from './component/my-reviews/my-reviews.component';
+import { MyordersComponent } from './component/myorders/myorders.component';
 import { PanCardComponent } from './component/pan-card/pan-card.component';
 import { ProfileinformationComponent } from './component/profileinformation/profileinformation.component';
 import { SavedUPIComponent } from './component/saved-upi/saved-upi.component';
@@ -17,6 +19,11 @@ const routes: Routes = [
     path: 'header',
     component: HeaderComponent,children:[
 
+      {
+        path: 'profile',
+        
+        component: ProfileinformationComponent
+      },
       {
         path: '',
         pathMatch:'full',
@@ -37,7 +44,7 @@ const routes: Routes = [
       {
         path: 'savedcard',
         component: SavedcardsComponent
-      }
+      }, 
 
     ]
   } ,
@@ -52,47 +59,14 @@ const routes: Routes = [
   },
   {
   path: 'myorders',
-  component:MyReviewsComponent
-  }
+  component:MyordersComponent
+  },
+  {
+    path: 'addaddress',
+    component:AddaddressComponent
+    }
 ];
 
-
-
-
-// const routes: Routes = [
-
-//   {path:'', redirectTo:'/header',pathMatch: 'full'},
-
-//   {
-//     path: 'header',
-//     component: HeaderComponent
-//   } ,
-//   {
-//     path: 'profile',
-//     component: ProfileinformationComponent
-//   },
-//   {
-//     path: 'manage',
-//     component: ManageaddressComponent
-//   },
-//   {
-//     path: 'pancard',
-//     component: PanCardComponent
-//   },
-//   {
-//     path: 'savedupi',
-//     component: SavedUPIComponent
-//   },
-//   {
-//     path: 'savedcard',
-//     component: SavedcardsComponent
-//   },
-//   {
-//     path: 'MyReviews',
-//     component: MyReviewsComponent
-//   }
-
-// ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

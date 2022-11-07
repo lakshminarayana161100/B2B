@@ -1,7 +1,3 @@
-/* .boby {
-  background-color: #3f9ce2;
-  height: 746px;
-} */
 
 .header {
   overflow: hidden;
@@ -39,11 +35,6 @@ a:active {
   font-size: 35px;
   font-weight: bold;
 }
-
-/* .header a:hover {
-    background-color: rgb(18, 96, 159);
-    color: black; 
-  } */
 
 .header a.active {
   background-color: dodgerblue;
@@ -141,7 +132,7 @@ a:active {
   width: 27px;
   height: 27px;
   margin: 13px;
-  margin-top: -19px;
+  margin-top: -13px;
 }
 
 .acc {
@@ -180,4 +171,7 @@ option {
   /* Whatever color  you want */
   background-color: white;
   color: black;
+}
+i:hover{
+  background-color: gainsboro;
 }

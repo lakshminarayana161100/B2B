@@ -15,6 +15,10 @@ import { SavedcardsComponent } from './component/savedcards/savedcards.component
 import { MyReviewsComponent } from './component/my-reviews/my-reviews.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { MyordersComponent } from './component/myorders/myorders.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { AddaddressComponent } from './component/addaddress/addaddress.component';
+
 
 @NgModule({
   declarations: [
@@ -28,11 +32,15 @@ import { MyordersComponent } from './component/myorders/myorders.component';
     SavedcardsComponent,
     MyReviewsComponent,
     DashboardComponent,
-    MyordersComponent
+    MyordersComponent,
+    AddaddressComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

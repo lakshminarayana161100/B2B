@@ -1,7 +1,8 @@
-h1{
+h1 {
     margin-top: 5px;
 }
-.box{
+
+.box {
     height: 81px;
     width: 557px;
     background-color: white;
@@ -9,11 +10,13 @@ h1{
     border-radius: 5px;
     margin: 22px;
 }
-.h3{
+
+.h3 {
     margin: 5px;
     margin-top: 20px;
 }
-.box1{
+
+.box1 {
     height: 175px;
     width: 557px;
     background-color: white;
@@ -21,36 +24,42 @@ h1{
     border-radius: 5px;
     margin: 22px;
     padding-top: 20px;
-    
+
 }
-.detail{
+
+.detail {
     margin: 10px;
     margin-top: -16px;
 }
-.box2{
+
+.box2 {
     height: 150px;
     width: 557px;
     background-color: white;
-    border: 1px solid gainsboro;
     border-radius: 5px;
-    margin: 22px;
-    padding-top: 20px;
+    margin: 15px;
+    padding-top: 2px;
 }
-button{
-    width: 15%;
-    margin-left: 250px;
+
+button {
+    margin-top: 26px;
+    margin-left: 40px;
 }
-.cen{
+
+.cen {
     margin: 30px;
     margin-left: 50px;
 }
-.primary{
-    color:white ;
+
+.primary {
+    color: white;
     background-color: #3f9ce2;
     border: 2px solid #3f9ce2;
     border-radius: 5px;
     width: 100px;
     height: 45px;
     margin-left: 250px;
-  
+}
+.primary:hover{
+    background: blue;
    }

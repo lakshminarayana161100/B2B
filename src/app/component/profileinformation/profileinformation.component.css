@@ -3,6 +3,7 @@
    float: right;
    margin-right: 50px;
    margin-top: -40px;
+   color: white;
  }
  .pad{
     padding-top: 25px;
@@ -16,4 +17,19 @@
   height: 45px;
   margin-left: 50px;
 
+ }
+ .edit{
+  color:white ;
+  background-color: #3f9ce2; 
+  border: 2px solid #3f9ce2;
+  border-radius: 5px;
+  width: 100px;
+  height: 45px;
+  border: none;
+ }
+ .primary:hover{
+  background: blue;
+ }
+ .edit:hover{
+  background: blue;
  }

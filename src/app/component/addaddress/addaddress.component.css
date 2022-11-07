@@ -1,0 +1,16 @@
+.addaddress{
+    width: 100%;
+    height: 64px;
+    background-color: #3f9ce2;
+}
+.arrow{
+    margin-top: -30px;
+    margin-left: 5px;
+}
+.container{
+    margin-top: 30px;
+}
+button{
+    margin-left: 600px;
+    width: 100px;
+}

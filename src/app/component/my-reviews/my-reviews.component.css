@@ -23,7 +23,7 @@ i{
     border: 2px solid gainsboro;
     border-radius: 3px;
     background-color:white;
-    margin-left: 70px;
+    margin-left: 160px;
 }
 .box1{
     width: 80%;
@@ -31,7 +31,7 @@ i{
     border: 2px solid gainsboro;
     border-radius: 3px;
     background-color:white;
-    margin-left: 70px;
+    margin-left: 160px;
 }
 img{
     height: 130px;
@@ -40,16 +40,7 @@ img{
     border-radius: 5px;
     margin-left: 10px;
 }
-.arrow{
-    box-sizing: border-box;
-    position: absolute;
-    width: 35px;
-    height: 0px;
-    top: 47px;
-    left: 56px;
-    border: 2px solid #ffffff;
-    transform: rotate(-180deg);
-}
+
 .rating1{
     
     margin-top: -66px;
@@ -74,5 +65,8 @@ i{
 }
 .head{
     margin-left: 10px;
+}
+.fas:hover{
+    background-color: aquamarine;
 }
 

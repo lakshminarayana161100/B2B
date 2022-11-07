@@ -34,3 +34,11 @@ button{
   text-align: center;
   margin-top: 60px;
 }
+button:hover{
+  background: #3f9ce2;
+}
+i:hover{
+  /* background: gainsboro; */
+  background-color: aqua;
+
+}
